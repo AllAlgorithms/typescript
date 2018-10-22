@@ -3,7 +3,7 @@
  * https://github.com/AllAlgorithms/TypeScript
  */
 
-// Sorts an array using merge sort
+// Sorts an array using quick sort
 export function quickSort(array: number[]): number[] {
   if (array.length <= 1) return array;
   const pivot = array.pop();
